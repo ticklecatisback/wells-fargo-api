@@ -48,8 +48,3 @@ async def fetch_data():
 
     # Assuming the external API returns JSON data
     return {"data": response.json()}
-
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
