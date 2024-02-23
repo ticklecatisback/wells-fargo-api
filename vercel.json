@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "instacart.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "instacart.py"
+    }
+  ]
+}
